@@ -1,0 +1,43 @@
+body {
+    background-color: blanchedalmond;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    height: 20px;
+    width: 150px;
+    color: black;
+
+}
+
+.input {
+    height: 20px;
+    width: 150px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.input::placeholder {
+    color: black;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+
+.card {
+    width: 200px;
+    margin: 20px;
+  }
+  
+.card-image {
+    display: block;
+    width: 200px;
+    height: 150px;
+  }
+  
